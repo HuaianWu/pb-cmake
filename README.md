@@ -1,4 +1,4 @@
-# pb-cmark：从零重写 `cmark`（CommonMark 参考实现）
+# pb-cmark：从零重写 `cmark`
 
 **难度：hard**　语言：C　上游：[commonmark/cmark](https://github.com/commonmark/cmark) @ `eec0eeb`（0.31.2）
 
