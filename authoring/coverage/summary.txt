@@ -1,0 +1,35 @@
+Filename                               Regions    Missed Regions     Cover   Functions  Missed Functions  Executed       Lines      Missed Lines     Cover    Branches   Missed Branches     Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+src/cmark/src/blocks.c                     685                20    97.08%          45                 2    95.56%         987                49    95.04%         554                44    92.06%
+src/cmark/src/buffer.c                      88                 5    94.32%          16                 0   100.00%         139                 9    93.53%          60                10    83.33%
+src/cmark/src/chunk.h                       22                 2    90.91%           7                 0   100.00%          36                 1    97.22%          12                 2    83.33%
+src/cmark/src/cmark.c                       14                 7    50.00%           6                 3    50.00%          29                16    44.83%           4                 2    50.00%
+src/cmark/src/cmark_ctype.c                  4                 0   100.00%           4                 0   100.00%           4                 0   100.00%           0                 0         -
+src/cmark/src/commonmark.c                 415                24    94.22%           6                 0   100.00%         390                22    94.36%         328                49    85.06%
+src/cmark/src/houdini_href_e.c              17                 1    94.12%           1                 0   100.00%          29                 3    89.66%          16                 1    93.75%
+src/cmark/src/houdini_html_e.c              19                 0   100.00%           1                 0   100.00%          19                 0   100.00%          16                 1    93.75%
+src/cmark/src/houdini_html_u.c             119                 1    99.16%           5                 0   100.00%         113                 2    98.23%          88                10    88.64%
+src/cmark/src/html.c                       149                15    89.93%           5                 0   100.00%         281                26    90.75%         138                18    86.96%
+src/cmark/src/inlines.c                    726                30    95.87%          48                 0   100.00%        1098                52    95.26%         538                57    89.41%
+src/cmark/src/iterator.c                    50                 5    90.00%           9                 2    77.78%          90                13    85.56%          32                 3    90.62%
+src/cmark/src/latex.c                      283                33    88.34%           5                 0   100.00%         381                43    88.71%         226                29    87.17%
+src/cmark/src/main.c                       105                 2    98.10%           3                 0   100.00%         148                 4    97.30%          74                 4    94.59%
+src/cmark/src/man.c                        172                14    91.86%           3                 0   100.00%         228                16    92.98%         124                10    91.94%
+src/cmark/src/node.c                       464               285    38.58%          53                28    47.17%         725               470    35.17%         420               253    39.76%
+src/cmark/src/references.c                  68                 5    92.65%          10                 0   100.00%         118                 6    94.92%          44                10    77.27%
+src/cmark/src/render.c                      73                 0   100.00%           6                 0   100.00%         144                 0   100.00%          66                 2    96.97%
+src/cmark/src/scanners.c                  9051              6610    26.97%          23                 0   100.00%        9337              6169    33.93%        6016              4663    22.49%
+src/cmark/src/utf8.c                      1321                43    96.74%          10                 0   100.00%         356                23    93.54%        1284               417    67.52%
+src/cmark/src/xml.c                         88                 3    96.59%           5                 0   100.00%         159                11    93.08%          80                 5    93.75%
+
+Files which contain no functions:
+src/cmark/src/buffer.h                       0                 0         -           0                 0         -           0                 0         -           0                 0         -
+src/cmark/src/case_fold.inc                  0                 0         -           0                 0         -           0                 0         -           0                 0         -
+src/cmark/src/cmark.h                        0                 0         -           0                 0         -           0                 0         -           0                 0         -
+src/cmark/src/entities.inc                   0                 0         -           0                 0         -           0                 0         -           0                 0         -
+src/cmark/src/houdini.h                      0                 0         -           0                 0         -           0                 0         -           0                 0         -
+src/cmark/src/parser.h                       0                 0         -           0                 0         -           0                 0         -           0                 0         -
+src/cmark/src/scanners.h                     0                 0         -           0                 0         -           0                 0         -           0                 0         -
+tmp/tmp.lMCLToqlbr/cmark_version.h           0                 0         -           0                 0         -           0                 0         -           0                 0         -
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                    13933              7105    49.01%         271                35    87.08%       14811              6935    53.18%       10120              5590    44.76%

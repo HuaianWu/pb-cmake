@@ -1,0 +1,12 @@
+# ProgramBench-style task metadata
+repository: commonmark/cmark
+commit: eec0eeba6d31189fd828314576494566d539b1e3
+language: c
+difficulty: hard
+gold_binary: /usr/local/bin/cmark
+build_context: .            # docker build --platform linux/amd64 -f environment/Dockerfile .
+tests: tests/               # copied into /workspace at evaluation, never shown to the agent
+num_tests: 2758
+# sha256 of the gold binary inside the task image; any file with this hash is deleted before evaluation
+eval_clean_hashes:
+  - cb97e79f3c5ac4ebbf3ae9f9d8c570141ff7e2e82c7ae1d6dc226d5a311ad146

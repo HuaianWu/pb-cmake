@@ -1,0 +1,46 @@
+# macOS and editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local test coverage output (keep authoring/coverage reports)
+.coverage
+.coverage.*
+/htmlcov/
+/coverage.xml
+
+# Build products
+/build/
+/dist/
+/target/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+/executable
+
+# Local secrets and temporary files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
